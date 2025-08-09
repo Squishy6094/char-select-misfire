@@ -5,7 +5,7 @@ if not _G.charSelectExists then
     return 0
 end
 
-local E_MODEL_MISFIRE = smlua_model_util_get_id("misfire_geo")
+local E_MODEL_MISFIRE = smlua_model_util_get_id("ember_geo")
 
 local MISFIRE_ANIMTABLE = {
    [charSelect.CS_ANIM_MENU] = MISFIRE_ANIM_CS_IDLE, 
